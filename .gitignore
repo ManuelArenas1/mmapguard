@@ -1,0 +1,35 @@
+# Artefactos de compilacion del modulo de kernel (kbuild)
+kmod/*.o
+kmod/*.ko
+kmod/*.mod
+kmod/*.mod.c
+kmod/*.mod.o
+kmod/*.symvers
+kmod/Module.symvers
+kmod/modules.order
+kmod/.*.cmd
+kmod/.tmp_versions/
+kmod/*.order
+kmod/.cache.mk
+
+# Binarios de las pruebas de usuario
+tests/poc_shared_write
+tests/poc_mprotect_upgrade
+tests/poc_private_cow
+tests/poc_race_madvise
+tests/bench_mmap
+
+# Datos de la demo (generados en /tmp, no en el repo, pero por si acaso)
+mmapguard-demo/
+*.dat
+
+# Video (se publica aparte / enlace), no el binario pesado
+video/*.mp4
+video/*.mkv
+video/*.wav
+video/*.mp3
+
+# Varios
+*.swp
+*~
+.DS_Store

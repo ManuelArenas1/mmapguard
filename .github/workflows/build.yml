@@ -1,0 +1,28 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-kmod-and-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar headers del kernel en ejecucion del runner
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y "linux-headers-$(uname -r)" build-essential
+
+      - name: Compilar el modulo de kernel (clean build, -Wall -Werror)
+        run: make -C kmod
+
+      - name: Compilar las pruebas de usuario (-Wall -Wextra -Werror)
+        run: make -C tests
+
+      - name: Ejecutar PoC en linea base (sin modulo cargado; el runner de CI no soporta insmod)
+        run: |
+          mkdir -p /tmp/mmapguard-demo
+          ./tests/poc_shared_write /tmp/mmapguard-demo/secret.dat || true
+          ./tests/poc_private_cow /tmp/mmapguard-demo/secret.dat || true
