@@ -125,9 +125,9 @@ tests/poc_shared_write /tmp/mmapguard-demo/secret.dat
 
 [`video/mmapguard_demo.mp4`](video/mmapguard_demo.mp4) — recorrido de ~4:43 min por el problema, la arquitectura (kretprobes sobre `security_mmap_file`/`security_file_mprotect`), el código del módulo, las 4 pruebas de concepto, el overhead medido y las limitaciones. Generado de forma reproducible (slides HTML renderizadas con Playwright + narración TTS en español + `ffmpeg`) con los scripts de `video/build.sh` y `video/render.js`.
 
-## 9. Autor
+## 9. Autores
 
-Manuel Arenas — Sistemas Operativos 2026-2, Universidad EAFIT.
+Miguel Montoya, Samuel Alarcón y Manuel Arenas — Sistemas Operativos 2026-2, Universidad EAFIT.
 Desarrollado con apoyo de IA (Claude, Anthropic) como se documenta íntegramente en `docs/02-estrategia-ia.md`.
 
 ## 10. Licencia

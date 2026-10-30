@@ -1,8 +1,8 @@
 [
   {
     "id": "01_title",
-    "narration": "MMapGuard. Control de acceso en la capa de kernel sobre archivos mapeados con mmap. Trabajo del parcial de Sistemas Operativos, periodo 2026 guión 2, Universidad EAFIT. Autor: Manuel Arenas, con apoyo de inteligencia artificial.",
-    "html": "<div class='scene title'><div class='badge'>PARCIAL 25% · SISTEMAS OPERATIVOS 2026-2 · EAFIT</div><h1>MMapGuard</h1><p class='sub'>Control de acceso en la capa de Kernel sobre archivos mapeados con <code>mmap()</code></p><div class='footer'>Manuel Arenas &middot; desarrollado con apoyo de IA (Claude)</div></div>"
+    "narration": "MMapGuard. Control de acceso en la capa de kernel sobre archivos mapeados con mmap. Trabajo del parcial de Sistemas Operativos, periodo 2026 guión 2, Universidad EAFIT. Autores: Miguel Montoya, Samuel Alarcón y Manuel Arenas, con apoyo de inteligencia artificial.",
+    "html": "<div class='scene title'><div class='badge'>PARCIAL 25% · SISTEMAS OPERATIVOS 2026-2 · EAFIT</div><h1>MMapGuard</h1><p class='sub'>Control de acceso en la capa de Kernel sobre archivos mapeados con <code>mmap()</code></p><div class='footer'>Miguel Montoya &middot; Samuel Alarcón &middot; Manuel Arenas &middot; con apoyo de IA (Claude)</div></div>"
   },
   {
     "id": "02_problem",
@@ -42,6 +42,6 @@
   {
     "id": "09_closing",
     "narration": "En resumen: mmapguard intercepta el único punto no evadible del ciclo de vida de mmap, usando kretprobes sobre el framework de seguridad del kernel, sin recompilar nada. Todo el código, las pruebas, y la documentación completa de las tres partes del parcial están en el repositorio de GitHub, usuario Manuel Arenas uno, repositorio mmapguard. Gracias.",
-    "html": "<div class='scene title'><h1>Gracias</h1><p class='sub'>Código, pruebas y documentación completas:</p><div class='repo'>github.com/ManuelArenas1/mmapguard</div><div class='footer'>MMapGuard &middot; Sistemas Operativos 2026-2 &middot; Universidad EAFIT</div></div>"
+    "html": "<div class='scene title'><h1>Gracias</h1><p class='sub'>Código, pruebas y documentación completas:</p><div class='repo'>github.com/ManuelArenas1/mmapguard</div><div class='footer'>Miguel Montoya &middot; Samuel Alarcón &middot; Manuel Arenas &middot; SO 2026-2 &middot; Universidad EAFIT</div></div>"
   }
 ]

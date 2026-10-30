@@ -63,7 +63,7 @@
 #include <linux/version.h>
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Manuel Arenas - Parcial SO 2026-2");
+MODULE_AUTHOR("Miguel Montoya, Samuel Alarcon, Manuel Arenas - Parcial SO 2026-2");
 MODULE_DESCRIPTION("Control de mmap()/mprotect() sobre archivos sensibles (kretprobe sobre ganchos LSM)");
 MODULE_VERSION("1.0");
 
