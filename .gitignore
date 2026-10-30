@@ -23,11 +23,15 @@ tests/bench_mmap
 mmapguard-demo/
 *.dat
 
-# Video (se publica aparte / enlace), no el binario pesado
-video/*.mp4
-video/*.mkv
+# Video: se versiona mmapguard_demo.mp4 (el entregable final), pero no los
+# archivos intermedios de generacion (audio/slides/clips quedan fuera del repo)
+video/audio/
+video/slides/*.html
+video/slides/*.png
+video/clips/
+video/concat.txt
+video/ids.txt
 video/*.wav
-video/*.mp3
 
 # Varios
 *.swp
