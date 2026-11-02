@@ -124,7 +124,7 @@ tests/poc_shared_write /tmp/mmapguard-demo/secret.dat
 
 ## 8. Video explicativo
 
-[`video/mmapguard_demo.mp4`](video/mmapguard_demo.mp4) — recorrido de ~4:43 min por el problema, la arquitectura (kretprobes sobre `security_mmap_file`/`security_file_mprotect`), el código del módulo, las 4 pruebas de concepto, el overhead medido y las limitaciones. Generado de forma reproducible (slides HTML renderizadas con Playwright + narración TTS en español + `ffmpeg`) con los scripts de `video/build.sh` y `video/render.js`.
+[`video/mmapguard_demo.mp4`](video/mmapguard_demo.mp4) — recorrido de ~4:43 min por el problema, la arquitectura (kretprobes sobre `security_mmap_file`/`security_file_mprotect`), el código del módulo, las 4 pruebas de concepto, el overhead medido y las limitaciones. Generado de forma reproducible (slides HTML renderizadas con Playwright + narración TTS en español + `ffmpeg`) con los scripts de `video/build.sh` y `video/render.js`. https://www.youtube.com/watch?v=nX3XzDDSLmk
 
 ## 9. Autores
 
