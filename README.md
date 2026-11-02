@@ -121,6 +121,7 @@ tests/poc_shared_write /tmp/mmapguard-demo/secret.dat
 | II — Estrategia con IA (30%) | [`docs/02-estrategia-ia.md`](docs/02-estrategia-ia.md) |
 | III — Implementación y resultados (40%) | [`docs/03-implementacion-resultados.md`](docs/03-implementacion-resultados.md) |
 | Informe completo en PDF (entrega) | [`docs/Informe_Parcial_MMapGuard.pdf`](docs/Informe_Parcial_MMapGuard.pdf) |
+| Sustentación en PDF | [`Parcial 3 Sustentacion MMapGuard.pdf`](Parcial%203%20Sustentacion%20MMapGuard.pdf) |
 
 ## 8. Video explicativo
 
